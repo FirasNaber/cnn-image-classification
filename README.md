@@ -111,7 +111,7 @@ model.add(layers.Dense(64, activation='softmax'))
 model.add(layers.Dense(10))
 ```
 
-After implementing the convolutional base, we added two [Dense](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Dense) layers on top of the final output layer. It is usually recommended to use two Dense layers rather than just one, so we proceeded with that. The first dense layer is of shape 4x4x64, which is a 3D tensor. The second layer should be a 1D tensor, so we first flattened our output into 1D from 3D. Since our data has 10 output classes, the second (final) Dense layer should also have 10 outputs, and used softmax as its optimization function (more on this in the conclusion section).
+After implementing the convolutional base, we added two [Dense](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Dense) layers on top of the final output layer. It is usually recommended to use two Dense layers rather than just one, so we proceeded with that. The first dense layer is of shape 4x4x64, which is a 3D tensor. The second layer should be a 1D tensor, so we first flattened our output into 1D from 3D. Since our data has 10 output classes, the second (final) Dense layer should also have 10 outputs, and used softmax as its optimization function (more on this in the Process section).
 
 
 Here is the final model summary:
