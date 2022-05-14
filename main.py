@@ -1,3 +1,8 @@
+# Install packages:
+## pip install tensorflow
+## pip install matplotlib
+
+# Run through IDE/editor
 import tensorflow as tf
 from tensorflow.keras import datasets, layers, models
 import matplotlib.pyplot as plt
@@ -22,7 +27,7 @@ train_images, test_images = train_images / 255.0, test_images / 255.0
 ##     plt.imshow(test_images[i])
 ## plt.show()
 
-# CNN Base
+# CNN implementation
 model = models.Sequential()
 model.add(layers.Conv2D(32, (3, 3), activation='relu', input_shape=(32, 32, 3)))
 model.add(layers.MaxPooling2D((2, 2)))
