@@ -2,7 +2,6 @@
 
 The purpose of this project is to create a model to classify images into 10 predetermined classes. Throughout our work on the project, we constantly attempted to reduce the loss and improve the accuracy of our model. For this project we decided to use Python for implementation, for several reasons:
 
-- We do not have a lot of experience with Python and wanted to gain a better understanding of the language.
 - Python is the best language available for working with machine learning models and algorithms; Python has many libraries that support machine learning projects such as tensorflow.
 - Python libraries allow you to access, process, and transform your data very effectively.
 
