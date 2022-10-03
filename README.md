@@ -37,7 +37,7 @@ Here is a plot of the first 25 images in the training set, with the respective c
 
 ## Testing set
 
-Here is a plot of the first 25 images in the training set, where we need our model to predict which class each image falls under:
+Here is a plot of the first 25 images in the testing set, where we need our model to predict which class each image falls under:
 
 ![Testing Set Figure](https://user-images.githubusercontent.com/60119746/167994887-e5b17fce-7956-4534-b2d2-5f30f6efb3fb.png)
 
